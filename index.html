@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Icon css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Custom styles for this template -->
+        <link href="css/styles.css" rel="stylesheet">
+
+        <title>Aaron Lapworth // Web Developer</title>
+    </head>
+
+    <body>
+        <header class="header_bg">
+            <!-- navbar for the site -->
+            <nav class="transparent_bg navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="my_nav navbar-brand">
+                        <img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">
+                        Aaron Lapworth
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about_me">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact_me">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+            <!-- hero jumbotron -->
+            <div class="transparent_bg jumbotron">
+                <img class="inline_jumbo" src="./images/picofme_transparent.png" alt="profile photo of aaron lapworth" width="250px">
+                <div class="inline_jumbo jumbo_text">
+                    <h1 class="display-4">Web Developer in training</h1>
+                    <p class="lead">I'm currently studying on a 4 month Front End web development Bootcamp</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Projects i have built so far on the bootcamp, using bootstrap cards -->
+            <section id="projects">
+                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">Projects</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/weather_dashboard/" class="card card_div" id="weather_api">
+                                <img src="./images/weather_api.png" class="card-img-top" alt="Screenshot of weather api site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">Weather API site</h5>
+                                    <p class="card-text">A site to pull data from a weather api and display</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/daily_planner/" class="card card_div" id="daily_planner">
+                                <img src="./images/daily_planner.png" class="card-img-top" alt="Screenshot of daily planner site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">Daily Planner</h5>
+                                    <p class="card-text">A site to store daily agenda items in local storage</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/js_quiz/" class="card card_div" id="js_quiz">
+                                <img src="./images/js_quiz.png" class="card-img-top" alt="Screenshot of javascript quiz site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">JS Quiz</h5>
+                                    <p class="card-text">A site using JS to create a quiz and store highscores</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/memory_game/" class="card card_div" id="memory_game">
+                                <img src="./images/memory_tile.png" class="card-img-top" alt="Screenshot of memory tile game site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">Memory Tile</h5>
+                                    <p class="card-text">A site with a memory tile game</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/puzzle_generator/" class="card card_div" id="puzzle_generator">
+                                <img src="./images/puzzle.png" class="card-img-top" alt="Screenshot of puzzle game site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">Puzzle Game</h5>
+                                    <p class="card-text">A site with a puzzle game</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/proj_Colour_randomiser/" class="card card_div" id="colour_picker">
+                                <img src="./images/colour_picker.png" class="card-img-top" alt="Screenshot of colour picker site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">Colour Picker</h5>
+                                    <p class="card-text">A site creating random colours</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/bootstrap_portfolio_week3_challenge" class="card card_div" id="bs_portfolio">
+                                <img src="./images/bs_portfolio.png" class="card-img-top" alt="Screenshot of Bootstrap portfolio site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">Bootstrap based portfolio site</h5>
+                                    <p class="card-text">A portfolio built using Bootstrap</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/coded_portfolio" class="card card_div" id="coded_portfolio">
+                                <img src="./images/coded_portfolio.png" class="card-img-top" alt="Screenshot of a coded portfolio site">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">Coded portfolio site</h5>
+                                    <p class="card-text">A portfolio I built myself</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
+                            <a href="https://lapworthaaron.github.io/css_cheatsheet" class="card card_div" id="css_cheatsheet">
+                                <img src="./images/css_cheatsheet.png" class="card-img-top" alt="Screenshot of my CSS cheatsheet">
+                                <div class="card-body work_card_body">
+                                    <h5 class="card-title">CSS Cheatsheet</h5>
+                                    <p class="card-text">A cheatsheet combining learnings</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about_me">
+                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">About Me</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="collapse-card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Front End Web Dev Bootcamp
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="collapse-card-body">
+                                <h4>Front End Web Dev Bootcamp</h4>
+                                <h5>Edx.org (Trilogy Education Services)</h5>
+                                <p>
+                                    Skills attaining: Java programming, UNIX, Prolog logic programming, Pascal and Delphi programming, Advanced Database skills, HTML coding and Project Management
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collapse-card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Skills
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="collapse-card-body">
+                            <div class="container skills_container">
+                                <div class="row">
+                                    <ul class="skills_list col-lg-4">
+                                        <li><span class="badge badge-primary">Experienced</span>SQL</li>
+                                        <li><span class="badge badge-primary">Experienced</span>Bigquery</li>
+                                        <li><span class="badge badge-warning">Rusty</span>SAS</li>
+                                        <li><span class="badge badge-warning">Rusty</span>Python</li>
+                                        <li><span class="badge badge-warning">Rusty</span>PySpark</li>
+                                        <li><span class="badge badge-primary">Experienced</span>Excel</li>
+                                        <li><span class="badge badge-primary">Experienced</span>Tableau</li>
+                                        <li><span class="badge badge-primary">Experienced</span>People Management</li>
+                                        <li><span class="badge badge-primary">Experienced</span>Presenting</li>
+                                    </ul>
+                                    <ul class="skills_list col-lg-4">
+                                        <li><span class="badge badge-success">New</span>HTML</li>
+                                        <li><span class="badge badge-success">New</span>CSS</li>
+                                        <li><span class="badge badge-success">New</span>Bootstrap</li>
+                                        <li><span class="badge badge-success">New</span>Javascript</li>
+                                        <li><span class="badge badge-danger">Not learnt</span>Node.js</li>
+                                        <li><span class="badge badge-danger">Not learnt</span>React</li>
+                                        <li><span class="badge badge-primary">Experienced</span>Git/Github</li>
+                                        <li><span class="badge badge-success">New</span>JQuery</li>
+                                        <li><span class="badge badge-danger">Not learnt</span>ES6</li>
+                                    </ul>
+                                    <ul class="skills_list col-lg-4">
+                                        <li><span class="badge badge-success">New</span>moment.js</li>
+                                        <li><span class="badge badge-success">New</span>AJAX</li>
+                                        <li><span class="badge badge-success">New</span>UX</li>
+                                        <li><span class="badge badge-warning">Rusty</span>JSON</li>
+                                        <li><span class="badge badge-danger">Not learnt</span>Test-driven development</li>
+                                        <li><span class="badge badge-warning">Rusty</span>OOP</li>
+                                        <li><span class="badge badge-danger">Not learnt</span>Behaviour-driven development</li>
+                                        <li><span class="badge badge-danger">Not learnt</span>Deployment</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="collapse-card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Education
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="collapse-card-body">
+                            <h4>Bsc(Hons): Computer and Video Games: 2:1</h4>
+                            <h5>2003 - 2006: The University of Salford, Greater Manchester</h5>
+                            <p>Skills attained: C++, 3D and Directx9 programming, proficiency in 3DS Max (3D modelling), Design Development including Design Documents, Marketing, Sound and Music and Project Management. Dissertation subject: MMORPG’s and Virtual Communities</p>
+                            <h4>HND: Computing (Merit)</h4>
+                            <h5>2001 - 2003: Truro College, Cornwall</h5>
+                            <p>
+                                Skills attained: Java programming, UNIX, Prolog logic programming, Pascal and Delphi programming, Advanced Database skills, HTML coding and Project Management
+                            </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+
+                    <div class="collapse-card">
+                      <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Work History
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="collapse-card-body">
+                            <h4>RVU (Uswitch)</h4>
+                            <h5>February 2020 – October 2022</h5>
+                            <p>
+                                Covering Accounts and CRM, building up new reports to understand value of email capture, unsubscriptions from emails and monthly reporting
+                                Data discovery on unused and not understood data in the organisation
+                                Insight projects to under/over performance and opportunity gaps in email programmes
+                                Regular presentation of insight work to all levels of the company(inc. CEO)
+                                Analysis of email and on-site A/B tests
+                                Manage a team of 2 analysts
+                            </p>
+                            <h4>Starcount – Senior Insight Analyst</h4>
+                            <h5>November 2017 – February 2020</h5>
+                            <p>
+                                Working closely with M&S on their CRM program for Sparks, helping manage  stakeholder relationships and schedule work
+                                Mentoring junior members in analysis and insight delivery, QA work before delivery
+                                Built an offer engine that takes a feed of available offers and allocates the offers in a  personalised manner to ~3.5m customers, driving £19m incremental revenue a year
+                                Used “Rolling Ball” methodology to build basket missions for M&S Food, used in building offers, a customer segmentation and substitutability of products
+                                Calendar Events analysis to identify important products for each calendar event and  identify customers shopping these events
+                            </p>
+                            <h4>The AA – Customer Insight and Analytics Manager</h4>
+                            <h5>July 2017 – October 2017</h5>
+                            <p>
+                                Working closely with senior management in Group Marketing and Commercial to action understanding of under performing areas
+                                Optimising and evaluating CRM activities
+                            </p>
+                            <h4>dunnhumby – Senior Insight Analyst – Screwfix</h4>
+                            <h5>August 2016 – April 2017</h5>
+                            <p>
+                                Sole implant in Screwfix offices for fixed term, to establish a new engagement.
+                                Driving relationships, managing stakeholders and understanding opportunities, leading to a longer-term contract
+                                Re-scoped, redesigned and built their full suite of reporting in Tableau and Amazon Redshift, then automated in Redpoint Data Manager
+                                Evaluating their Communications process from beginning to end, recommending improvements and implementing an automated Comms evaluation report
+                                Creation of technical documentation and user guides for all work completed
+                            </p>
+                            <h4>dunnhumby – Senior Insight Analyst - Online</h4>
+                            <h5>Oct 2015 – July 2017</h5>
+                            <p>
+                                Working as a “power of two” on the online business with a client lead
+                                Developing a strong client engagement with the Tesco team and senior management
+                                Delivering projects identifying ~£15m worth of profit savings to the business
+                                Helped the Online team at Tesco gather understanding of how valuable each area of the Online business is to Tesco, working in Sales, Profit and Customer benefit
+                                Subject Matter Expert for Delivery Saver at Tesco and dunnhumby, helping with the  development of the new version and later demonstrating that it was unprofitable and recommending ending Delivery Saver
+                            </p>
+                            <h4>dunnhumby – Senior Insight Analyst - Stores</h4>
+                            <h5>June 2015 – Oct 2015</h5>
+                            <p>
+                                Working with the Tesco Store steam to help understand the competitor impact to individual Tesco stores, culminating in embedding our analysis in the first version of a  Competitor handbook for store managers
+                                Delivering an assessment of the decline of Extra stores to the board of Tesco
+                            </p>
+                            <h4>dunnhumby – Senior Insight Analyst - Telecoms</h4>
+                            <h5>June 2013 – June 2015</h5>
+                            <p>
+                                Working with Tesco Telecoms to understand their customers and performance
+                                Leading the client engagement and producing all analysis for Tesco Telecoms across, Tesco Mobile, Broadband, ICC and In-store retail
+                                Working with data that is based on a yearly/2 yearly subscription basis, including on- demand retail
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+            </section>
+        </main>
+
+        <footer>
+            <!-- Contact me section with bootstrap cards and some css icons -->
+            <section id="contact_me">
+                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">Contact Me</h2>
+            </section>
+            <section class="bg-black">
+                <div class="container contacts_container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="card add_card">
+                                <div class="add_card-body">
+                                    <h4 class="text-uppercase">Email</h4>
+                                    <div>aaronlapworth@hotmail.co.uk</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="card add_card">
+                                <div class="add_card-body">
+                                    <h4 class="text-uppercase">Location</h4>
+                                    <div>St Albans
+                                    </div>
+                                    <div>Available for work in London and Hertfordshire
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="https://github.com/LapworthAaron" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/aaron-lapworth-a0168042/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer for copyright notice -->
+            <section class="copyright">
+                <div class="container">
+                    <div class="footer">
+                        <p>© Aaron Lapworth</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
