@@ -93,6 +93,8 @@ li span {
 /* Projects section */
 .my_cards {
     margin-bottom: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* setup the text boxes for each card */
