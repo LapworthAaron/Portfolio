@@ -91,6 +91,10 @@ li span {
 }
 
 /* Projects section */
+#projects {
+    margin-bottom: 10px;
+}
+
 .my_cards {
     margin-bottom: 1rem;
     padding-left: 10px;
