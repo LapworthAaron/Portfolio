@@ -99,20 +99,21 @@ li span {
     margin-bottom: 1rem;
     padding-left: 10px;
     padding-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 5px;
 }
 
-/* setup the text boxes for each card */
-/* @media (min-width: 1200px){
-.container {
-    max-width: 1800px;
+.card_div {
+    border: none;
 }
-} */
 
 .card_div .work_card_body {
     background-color: rgba(255,255,255,0.9) !important;
     padding: 15px;
     color: var(--blue_text);
     font-size: 18px;
+    border-radius: 0 0 5px 5px;
 }
 
 .card_div img {
@@ -125,15 +126,39 @@ li span {
 			var(--mid_blue);
 }
 
-.card_div:hover img {
+.my_cards:hover img {
     opacity: 0.3;
 }
 
-.card_div:hover .work_card_body {
+.my_cards:hover .work_card_body {
     background-color: var(--mid_blue) !important;
     padding: 15px;
     color: var(--text_color);
     font-size: 18px;
+}
+
+.gitButton {
+    background-color: none;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    right: 18px;
+    text-decoration: none;
+    color: var(--mid_blue);
+}
+
+.gitButton:hover {
+    background-color: none !important;
+    color: var(--blue_text) !important;
+    text-decoration: none  !important;
+    text-shadow: 3px 3px 3px var(--mid_blue) !important;
+    border: none !important;
+}
+
+.my_cards:hover > .gitButton {
+    background-color: var(--mid_blue);
+    border: none;
+    color: var(--text_color);
 }
 /* Projects section END */
 

@@ -22,7 +22,7 @@
             <!-- navbar for the site -->
             <nav class="transparent_bg navbar navbar-expand-lg navbar-light bg-light">
                     <div class="my_nav navbar-brand">
-                        <img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">
+                        <img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65">
                         Aaron Lapworth
                     </div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,9 +41,9 @@
             </nav>
             <!-- hero jumbotron -->
             <div class="transparent_bg jumbotron">
-                <img class="inline_jumbo" src="./images/picofme_transparent.png" alt="profile photo of aaron lapworth" width="250px">
+                <img class="inline_jumbo" src="./images/picofme_transparent.png" alt="profile photo of aaron lapworth" width="250">
                 <div class="inline_jumbo jumbo_text">
-                    <h1 class="display-4">Web Developer in training</h1>
+                    <h1 class="display-4" id="jumboTitle">Web Developer in training</h1>
                     <p class="lead">I'm currently studying on a 4 month Front End web development Bootcamp</p>
                 </div>
             </div>
@@ -52,35 +52,38 @@
         <main>
             <!-- Projects i have built so far on the bootcamp, using bootstrap cards -->
             <section id="projects">
-                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">Projects</h2>
+                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65">Projects</h2>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
-                            <a href="https://lapworthaaron.github.io/react_portfolio" class="card card_div" id="react_portfolio">
+                            <a href="https://lapworthaaron.github.io/react_portfolio" class="card card_div" id="react_portfolio" rel="noopener noreferrer">
                                 <img src="./images/react_portfolio.png" class="card-img-top" alt="Screenshot of my React portfolio">
                                 <div class="card-body work_card_body">
                                     <h5 class="card-title">React Portfolio</h5>
                                     <p class="card-text">Portolio site built using React Router</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/react_portfolio" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
-                            <a href="https://lapworthaaron.github.io/team_profile_generator" class="card card_div" id="team_profile_generator">
+                            <a href="https://github.com/LapworthAaron/team_profile_generator" class="card card_div" id="team_profile_generator">
                                 <img src="./images/team_generator.png" class="card-img-top" alt="Screenshot of my nodejs team generator">
                                 <div class="card-body work_card_body">
                                     <h5 class="card-title">Node.js Team Generator</h5>
                                     <p class="card-text">Generate Team Profile dynamically</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/team_profile_generator" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
-                            <a href="https://github.com/LapworthAaron/readme_generator" class="card card_div" id="readme generator">
+                            <a href="https://github.com/LapworthAaron/readme_generator" class="card card_div" id="readme_generator">
                                 <img src="./images/readme_generator.png" class="card-img-top" alt="Screenshot of readme generator">
                                 <div class="card-body work_card_body">
                                     <h5 class="card-title">Readme Generator</h5>
                                     <p class="card-text">A node.js application to generate Readmes</p>
-                                </div>
+                                </div>                                
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/readme_generator" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/Football_stats/" class="card card_div" id="football_stats">
@@ -90,6 +93,7 @@
                                     <p class="card-text">A group project using a football api</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/Football_stats" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/weather_dashboard/" class="card card_div" id="weather_api">
@@ -99,6 +103,7 @@
                                     <p class="card-text">A site to pull data from a weather api and display</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/weather_dashboard" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/daily_planner/" class="card card_div" id="daily_planner">
@@ -108,6 +113,7 @@
                                     <p class="card-text">A site to store daily agenda items in local storage</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/daily_planner" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/js_quiz/" class="card card_div" id="js_quiz">
@@ -115,8 +121,9 @@
                                 <div class="card-body work_card_body">
                                     <h5 class="card-title">JS Quiz</h5>
                                     <p class="card-text">A site using JS to create a quiz and store highscores</p>
-                                </div>
+                            </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/js_quiz" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/memory_game/" class="card card_div" id="memory_game">
@@ -126,6 +133,7 @@
                                     <p class="card-text">A site with a memory tile game</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/memory_game" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/puzzle_generator/" class="card card_div" id="puzzle_generator">
@@ -135,6 +143,7 @@
                                     <p class="card-text">A site with a puzzle game</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/puzzle_generator" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/password_generator/" class="card card_div" id="password_generator">
@@ -144,6 +153,7 @@
                                     <p class="card-text">A site using JS to create a random password based on user settings</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/password_generator" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/proj_Colour_randomiser/" class="card card_div" id="colour_picker">
@@ -153,6 +163,7 @@
                                     <p class="card-text">A site creating random colours</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/proj_Colour_randomiser" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/bootstrap_portfolio_week3_challenge" class="card card_div" id="bs_portfolio">
@@ -162,6 +173,7 @@
                                     <p class="card-text">A portfolio built using Bootstrap</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/bootstrap_portfolio_week3_challenge" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/coded_portfolio_week2_challenge" class="card card_div" id="coded_portfolio">
@@ -171,6 +183,7 @@
                                     <p class="card-text">A portfolio I built myself</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/coded_portfolio_week2_challenge" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 my_cards d-flex align-items-stretch">
                             <a href="https://lapworthaaron.github.io/css_cheatsheet" class="card card_div" id="css_cheatsheet">
@@ -180,13 +193,14 @@
                                     <p class="card-text">A cheatsheet combining learnings</p>
                                 </div>
                             </a>
+                            <a class="gitButton" href="https://github.com/LapworthAaron/css_cheatsheet" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section id="about_me">
-                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">About Me</h2>
+                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65">About Me</h2>
                 <div class="accordion" id="accordionExample">
                     <div class="collapse-card">
                         <div class="card-header" id="headingOne">
@@ -357,7 +371,7 @@
         <footer>
             <!-- Contact me section with bootstrap cards and some css icons -->
             <section id="contact_me">
-                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65px">Contact Me</h2>
+                <h2 class="section_headings"><img class="logo" src="./images/logo.png" alt="Aaron Lapworth logo" width="65">Contact Me</h2>
             </section>
             <section class="bg-black">
                 <div class="container contacts_container">
@@ -400,11 +414,7 @@
     </body>
 
     <!-- jQuery first, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </html>
